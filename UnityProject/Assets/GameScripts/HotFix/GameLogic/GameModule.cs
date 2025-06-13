@@ -63,6 +63,13 @@ public class GameModule
     public static UIModule UI => _ui ??= UIModule.Instance;
 
     private static UIModule _ui;
+    
+    /// <summary>
+    /// 获取UI模块。
+    /// </summary>
+    public static FGUIModule FUI => _fui ??= FGUIModule.Instance;
+
+    private static FGUIModule _fui;
 
     /// <summary>
     /// 获取场景模块。

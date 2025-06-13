@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1650,750">
+  <displayList>
+    <graph id="n0_gkoy" name="n0" xy="0,0" size="1650,750" type="rect" fillColor="#ff006633">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <graph id="n7_vagg" name="safeArea" xy="50,0" size="1550,750" type="rect" fillColor="#ffcc0000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <richtext id="n1_gkoy" name="Txt1" xy="725,325" size="200,100" fontSize="30" align="center" vAlign="middle" autoSize="none" text="asdasdasd">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n2_w8ub" name="Btn1" src="w8ub1" fileName="TestBtn.xml" pkg="2twj9h7g" xy="775,433">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <graph id="n3_e5ur" name="n3" xy="0,0" size="100,100" type="rect">
+      <relation target="" sidePair="left-left,top-top"/>
+    </graph>
+    <graph id="n4_e5ur" name="n4" xy="1550,0" size="100,100" type="rect">
+      <relation target="" sidePair="right-right,top-top"/>
+    </graph>
+    <graph id="n5_e5ur" name="n5" xy="0,650" size="100,100" type="rect">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </graph>
+    <graph id="n6_e5ur" name="n6" xy="1550,650" size="100,100" type="rect">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </graph>
+    <graph id="n8_vagg" name="n8" xy="1477,325" size="100,100" type="rect">
+      <relation target="n7_vagg" sidePair="middle-middle,right-right"/>
+    </graph>
+  </displayList>
+</component>

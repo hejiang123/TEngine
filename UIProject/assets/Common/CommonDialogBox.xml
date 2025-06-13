@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1650,750">
+  <displayList>
+    <graph id="n8_wpko" name="Mask" xy="0,0" size="1650,750" type="rect" fillColor="#ffcccccc">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <graph id="n3_wpko" name="n3" xy="375,175" size="900,400" type="rect" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <component id="n6_wpko" name="OK" src="w8ub1" fileName="TestBtn.xml" xy="975,502" size="200,40">
+      <relation target="n3_wpko" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n7_wpko" name="Cancel" src="w8ub1" fileName="TestBtn.xml" xy="475,502" size="200,40">
+      <relation target="n3_wpko" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n9_wpko" name="Cancel2" src="w8ub1" fileName="TestBtn.xml" xy="725,280" size="200,40">
+      <relation target="n3_wpko" sidePair="center-center,top-top"/>
+    </component>
+  </displayList>
+</component>

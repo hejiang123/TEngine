@@ -1,0 +1,11 @@
+{
+  "name": "cs_script",
+  "displayName": "导出C#脚本",
+  "description": "限制：文本框内不能填入符号:< >\n默认命名的对象不会生成代码",
+  "version": "1.0",
+  "author": {
+    "name": "Quan"
+  },
+  "icon": "",
+  "main": "main.lua"
+}
