@@ -16,6 +16,8 @@ public sealed class FGUIHelper
 		{
 			case Common.CommonPackage.packageId:
 				return "Common";
+			case Login.LoginPackage.packageId:
+				return "Login";
 			case Test.TestPackage.packageId:
 				return "Test";
 		}
@@ -29,6 +31,8 @@ public sealed class FGUIHelper
 		{
 			case Common.CommonPackage.packageId:
 				return Common.CommonPackage.GetComponent(itemUrl);
+			case Login.LoginPackage.packageId:
+				return Login.LoginPackage.GetComponent(itemUrl);
 			case Test.TestPackage.packageId:
 				return Test.TestPackage.GetComponent(itemUrl);
 		}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1650,750">
+  <displayList>
+    <component id="n1_vagg" name="UserNameInput" src="vagg5" fileName="Comps/CommonInput.xml" pkg="2twj9h7g" xy="625,271" size="400,50">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n0_vagg" name="LoginBtn" src="vagg4" fileName="Comps/CommonButton.xml" pkg="2twj9h7g" xy="625,441" size="400,50">
+      <relation target="" sidePair="center-center"/>
+    </component>
+  </displayList>
+</component>

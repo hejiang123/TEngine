@@ -11,6 +11,8 @@ namespace Common
 		{
 			switch(itemUrl)
 			{
+				case UI_CommonInput.URL:
+					return new UI_CommonInput();
 				case UI_TestBtn.URL:
 					return new UI_TestBtn();
 				case UI_CommonDialogBox.URL:

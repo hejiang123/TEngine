@@ -3,6 +3,8 @@
   <resources>
     <component id="w8ub1" name="TestBtn.xml" path="/" exported="true"/>
     <component id="wpko3" name="CommonDialogBox.xml" path="/" exported="true"/>
+    <component id="vagg4" name="CommonButton.xml" path="/Comps/" exported="true"/>
+    <component id="vagg5" name="CommonInput.xml" path="/Comps/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
