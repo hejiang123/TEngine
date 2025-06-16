@@ -19,6 +19,7 @@ public partial class GameApp
     public static void Entrance(object[] objects)
     {
         GameEventHelper.Init();
+        UIModule.Instance.Release();
         _hotfixAssembly = (List<Assembly>)objects[0];
         Log.Warning("======= 看到此条日志代表你成功运行了热更新代码 =======");
         Log.Warning("======= Entrance GameApp =======");
@@ -30,7 +31,7 @@ public partial class GameApp
     {
         //GameEvent.Get<ILoginUI>().ShowLoginUI();
         //GameModule.UI.ShowUIAsync<BattleMainUI>();
-        GameModule.FUI.OpenWindow<TestMainWindow>();
+        GameModule.FUI.OpenWindow<LoginMainWindow>();
     }
     
     private static void Release()
