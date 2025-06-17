@@ -33,7 +33,9 @@ namespace GameLogic
             LoginVerify loginVerify = new LoginVerify();
             loginVerify.UserName = _loginUserName;
             ResponseResult responseResult = await LoginAction.OfAwaitLoginVerify(loginVerify);
-            Log.Error(responseResult.ToString());
+            UserInfo userInfo = responseResult.GetValue<UserInfo>();
+            UserModule.Instance.SetUserInfo(userInfo);
+            Log.Error($"登陆成功 {userInfo.NickName}");
         }
     }
 }
