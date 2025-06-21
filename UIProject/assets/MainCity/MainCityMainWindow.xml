@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1650,750">
+  <displayList>
+    <graph id="n0_ns62" name="n0" xy="0,0" size="1650,750" type="rect" fillColor="#ff6600cc">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <component id="n1_ns62" name="Lobby" src="vagg4" fileName="Comps/CommonButton.xml" pkg="2twj9h7g" xy="625,325" size="400,100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>
